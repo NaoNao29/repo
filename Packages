@@ -1,3 +1,19 @@
+Package: cn.llld.flexlist
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flexlist，Flexing汉化-rootless.0.0.4.deb
+Size: 11892
+MD5sum: aeaaf75f03fb9c7bea8c83fbace5f411
+SHA1: 307138964d1a8d9dd660347800dad344d21073b6
+SHA256: f4a07c669587d7e7f35aed6764f2611588348f7dc3efd960c7ab2d62e5259469
+Section: rootless汉化补丁
+Description: Flexlist，Flexing,Flexible,Flexall等调试工具--(rootless)简体中文包，(231130解决搜狗输入法不能删除的问题)，默认对全局应用生效，不需要的应用请仅允许或者仅禁止此汉化包的注入
+Author: 来了老弟 h_h_x_t
+Name: Flexlist，Flexing汉化-rootless
+
 Package: cn.octoforce.copyvault
 Version: 1.5.6
 Architecture: iphoneos-arm64
@@ -15,6 +31,65 @@ Description: 激活码用户或需要激活码的用户安装这个，非激活�
 Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: cn.zqbb.fix120hz
+Version: 1.2.0-55
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 1564
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: ./debs/Hello120Hz.1.2.0-55.deb
+Size: 355136
+MD5sum: 48ff32c7345e176f34e8dea577378528
+SHA1: 28d988f4c048f70f46098e4b4208c62ccc87bab5
+SHA256: 58ac77d8e1e1dd27446ef9c3a59e2f6b07f5b45f8a7756516816c41a9ae71e39
+Section: Tweaks
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+Name: Hello 120Hz
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: cn.zqbb.orzfolder
+Version: 1.2.3-3
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2123
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/HelloFolder.1.2.3-3.deb
+Size: 503440
+MD5sum: e9629ea3a98bd5793c0d80c911bbe321
+SHA1: bbfa93af5922d4ea9250a530fda5d8f23c21923a
+SHA256: 1c34ae88873c708347441c80d00a26162cc62a2b7a93f2de5135b2907612e521
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=orzfolderDp
+Description: Folder Layout Customization Tool
+ - 文件夹颜值 ? 美 : 丑
+Tag: purpose::extension
+Author: zqbb <w2599z@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=orzfolderDp
+Dev: zqbb
+Icon: file:///var/jb/Library/PreferenceBundles/0rzFolder.bundle/icon@2x.png
+Name: Hello Folder
+Sileodepiction: https://rootless.zq666.eu.org/web/cn.zqbb.orzfolder
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.be-huge.floating-view
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 2268
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/floatingView.1.4.2.deb
+Size: 479272
+MD5sum: 9d1468d33b091e13af01e6b9c671fb33
+SHA1: 231e8b0a5234be02d7f87ce9cbc7cb064aeea1c2
+SHA256: 576043f855e56b01eaa795fe0656a36b841df01825b52f5b1d643894254b916e
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
 
 Package: com.dao.batteryhealth
 Version: 1.0.1
@@ -80,6 +155,59 @@ Author: 妖刀
 Name: CCLess++(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/HammerIt.1.7.1.deb
+Size: 975940
+MD5sum: 199c3fae360ef3f69206423009ee1dbb
+SHA1: 149e8de2f87e01dc3f46c652d8ced418aa6c8bfa
+SHA256: 0c4aefa6310e48bc229288871f2ea817e5f185997fa74b9b49a54d8ace7cc4c3
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.lenglengyu.fixxinamine-rootless
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/FixXinamine-Rootless.0.0.2.deb
+Size: 4764
+MD5sum: 67ca7be9a0bd3c38ae35573e061ac2b8
+SHA1: bd7fd50cbc7f074af90d735766e1fef6e70e3414
+SHA256: 60846b1b8f5f0f18b5c3ded12cc9efa3e1af55e0ded593e8ea62efb532a2ae5e
+Section: Tweaks
+Description: 修复安装xinamine或桥接xina后无法验证本源会员问题。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/fixxinamine.html
+Name: FixXinamine-Rootless
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/fixxinaminesileo
+
+Package: com.lenglengyu.iapstorefugu-rootless
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 384
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/IAPStore-Rootless【内购神器】.0.0.2.deb
+Size: 41736
+MD5sum: 240e4784474187a3172875ff9c8fb707
+SHA1: 98c4cd9c67576ac985e5cd3ecec811c76e268e1b
+SHA256: 9cff1f5e314e029b8e5fa30d9397de8f6e6e33c066c6a86949a4a2d0eb76f8b8
+Section: Tweaks
+Description: Fugu15应用内购神器，弹窗付款点击取消即可。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/iapstorefugu.html
+Name: IAPStore-Rootless【内购神器】
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/iapstorefugusileo
+
 Package: com.netskao.appdata
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -142,6 +270,26 @@ Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
 Name: Choicy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.pantsthief.flexing
+Version: 1.5.0
+Architecture: iphoneos-arm64
+Maintainer: Tanner Bennett <thepantsthief@me.com>
+Installed-Size: 168
+Pre-Depends: firmware (>= 8.0)
+Depends: libflex
+Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible, applebetas.ios.tweak.devtools.flexgesture, com.creaturecoding.flexer, com.lacertosusrepo.flex4me, me.nepeta.flexxx, com.ipadkid.flexit, com.qiop1379.flexbar, com.leftyfl1p.reflex
+Filename: ./debs/FLEXing.1.5.0.deb
+Size: 8108
+MD5sum: 64554546bf83f4c221d21398bb0aa6d5
+SHA1: c809d4f8342cea0df3b6046458572a2b6c69dcc9
+SHA256: ba6309a97e40058403a7199d934a9cf8dcc8fc5eab2cd20d15ec25defb7eb5dd
+Section: Tweaks
+Description: Open FLEX anywhere!
+Author: Tanner Bennett <thepantsthief@me.com>
+Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
+Name: FLEXing
+Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+
 Package: com.sunshinesong.recorder-bubble
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -177,6 +325,58 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.pn
 Name: DockX
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
 
+Package: com.yan.fiona
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: yan
+Installed-Size: 576
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware (>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/Fiona.1.0.7.deb
+Size: 121904
+MD5sum: a9264ca550291864bb12ff6621451d40
+SHA1: c407a76971fc6902e5332f53bedc9279fc3d3a9b
+SHA256: 4ca143d4fe609e98dad9c4a211dbc33d5090b707ed7b63dd3a0dc03318f27c28
+Section: Tweaks
+Description: Floating Tab bar for iOS devices.
+Author: yan
+Icon: https://yandevelop.github.io/assets/icons/fiona/icon.png
+Name: Fiona
+
+Package: com.zqbb.savephotos
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/HelloSnapper.1.1.deb
+Size: 4516
+MD5sum: 806f1d49785de4c77a02b5c42af9875d
+SHA1: 6e8eb3fdb9035504f3c4ccd760470b389ba0db19
+SHA256: 319f0a1ea0c630c4a7741d2abd061f44d521b89756c45bd408419c6692b3d121
+Section: Tweaks
+Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
+Author: zqbb
+Name: Hello Snapper
+Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+
+Package: libflex
+Version: 5.22.10
+Architecture: iphoneos-arm64
+Maintainer: Tanner Bennett <tannerbennett@me.com>
+Installed-Size: 2916
+Pre-Depends: firmware (>= 9.0)
+Filename: ./debs/libFLEX.5.22.10.deb
+Size: 657344
+MD5sum: fce77f4b4e2f5577f31581c7358c05ac
+SHA1: 0d7246b385c509421f92ecd6286ff09edd4517e1
+SHA256: 0b029271fe7307483925ec234d18ad27892cce7648f951a1a583a73220aa5ab2
+Section: Tweaks
+Description: A library for Flipboard Explorer.
+Author: Tanner Bennett <tannerbennett@me.com>
+Depiction: https://nscake.github.io/package.html?package=libflex
+Name: libFLEX
+Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
+
 Package: llld.keyboard
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -191,6 +391,28 @@ SHA256: c2c8799a4072e9dedd8e7cb02716c153e1ac2dddadae0e7861e1750a7a91def3
 Section: rootless插件
 Author: 来了老弟
 Name: 强制第三方输入法-rootless
+
+Package: lunotech11.legizmo.lighthouse
+Version: 5.3.1
+Architecture: iphoneos-arm64
+Maintainer: lunotech11 <support@legizmo.app>
+Installed-Size: 3790
+Depends: firmware (>= 15.0), gsc.telephony, mobilesubstrate, preferenceloader
+Conflicts: lunotech11.legizmo, com.34306.watched
+Replaces: lunotech11.legizmo
+Provides: lunotech11.legizmo
+Filename: ./debs/Legizmo'Lighthouse'.5.3.1.deb
+Size: 721040
+MD5sum: ccf1b40c8fddbfa35201e864ecf17a3c
+SHA1: 7dc889bbee55397d55fa9171a12ca693ffc88760
+SHA256: d736ecb27b2db2c2fbb3f05b5939a333aa482cd0f08e113813f906490da00a1e
+Section: Tweaks
+Description: Enables pairing, connecting and updating to incompatible versions of watchOS
+Tag: compatible::ios15, cydia::commercial, compatible_min::ios13.0
+Author: lunotech11 <support@legizmo.app>
+Depiction: https://chariz.com/buy/legizmo-lighthouse
+Icon: https://img.chariz.cloud/icon/legizmo-lighthouse/icon@3x.png
+Name: Legizmo 'Lighthouse'
 
 Package: me.lau.atria
 Version: 1.4.1
@@ -211,4 +433,23 @@ Author: ren7995 <lau7995ren@gmail.com>
 Depiction: https://chariz.com/get/atria
 Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
 Name: Atria
+
+Package: misakahelper
+Version: 2.1-0
+Architecture: iphoneos-arm64
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: misakahelper
+Replaces: misakahelper
+Provides: misakahelper
+Filename: ./debs/MisakaHelper.2.1-0.deb
+Size: 13177080
+MD5sum: d119a244136f9de6d1768129d78514a3
+SHA1: 83731cca5400845c5736cff6e49302173358f157
+SHA256: 3544b6c3afb27b7cd40069baf96162453205a08dc4fa1e762e7e54f8c23f5743
+Section: Tweaks
+Priority: optional
+Description: MisakaHelper
+Author: Misaka
+Name: MisakaHelper
 
