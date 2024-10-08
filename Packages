@@ -1,3 +1,20 @@
+Package: byg.naonao29.qqmusic
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Nao
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/byg.naonao29.QQ music_0.0.1_iphoneos-arm64.deb
+Size: 4932
+MD5sum: eb10bd5b647d77fa282d7e41f78f15b4
+SHA1: efc16d55e5876d06f95362d703557fa79a7ee887
+SHA256: 9581181ca39469aab35d33b88289fbae03fa16d89f86d92e6ff09fa6dda81c87
+Section: 自用插件
+Description: 解锁臻品音质2.0
+Author: NaoNao
+Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
+Name: QQ Music
+Sponsor: Nao
+
 Package: cn.llld.flexlist
 Version: 0.0.4
 Architecture: iphoneos-arm64
