@@ -48,6 +48,24 @@ Description: Pixact专业版
 Author: 来了老弟 X：h_h_x_t
 Name: Pixact-Pro
 
+Package: cn.llld.snapshottool
+Version: 1.3.0-2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 2996
+Depends: mobilesubstrate
+Filename: ./debs/STTool.1.3.0-2.deb
+Size: 854568
+MD5sum: 42a5b039d25541bb79007f9ad4d68748
+SHA1: 7caa71a679f94edb65a6874a6d9389536ee91df0
+SHA256: 1953ec11e24d033e242c9d680387d8297ae3cc4daf2ebaf255a45400f0e96608
+Section: rootless应用插件
+Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+Name: STTool
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
 Package: cn.octoforce.copyvault
 Version: 1.5.6
 Architecture: iphoneos-arm64
@@ -65,6 +83,24 @@ Description: 激活码用户或需要激活码的用户安装这个，非激活�
 Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.5.3
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 7308
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/SquidGesturePro激活码.2.5.3.deb
+Size: 2148764
+MD5sum: dfabf34a9adf54c9c586b928c6b978bd
+SHA1: 7969e9b12b37f7cc78e1a52fbed3cecd47e46f54
+SHA256: 13f073c79f9ba1b815073684b732c1e7ebb524b515befc50dda193915db60387
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
 Package: cn.zqbb.fix120hz
 Version: 1.2.0-55
@@ -140,6 +176,38 @@ Section: Tweaks
 Description: Remove the background of the widgets on the home screen.
 Author: Lessica <82flex@gmail.com>
 Name: Remove Widget Background
+
+Package: com.82flex.singlemute
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 380
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/SingleMute.1.4.deb
+Size: 23672
+MD5sum: b8086ce32507bcc4c5e080ef2875b999
+SHA1: 94d2a610d0c4067116d9ac21d74c9103133868eb
+SHA256: d1338f1c82045ad8845e8ede5c56825c3d6ef436841d67d2b18f881bdc722661
+Section: Tweaks
+Description: Just a single mute icon on the status bar of iOS.
+Author: 82Flex <82flex@gmail.com>
+Name: Single Mute
+
+Package: com.82flex.touchvis
+Version: 3.10
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3132
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Touch-Viz.3.10.deb
+Size: 714324
+MD5sum: ca293593b012b1400df4b97dfbfc013a
+SHA1: e99d2fc0130ffa1d3e4cd2081bfc26892d177a6b
+SHA256: 7ba0c00b2f687c6fc5f823d2d9bb2069e30328e91b43ad45958004a25c0d6f56
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
 
 Package: com.be-huge.floating-view
 Version: 1.4.2
@@ -246,6 +314,23 @@ Description: SafariX 简体中文包(rootless)。
 Author: 妖刀
 Name: SafariX 简体中文包(rootless)
 
+Package: com.dao.sugarcane
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: iOS Creatix, kasiimh1, baptistecdr, p2kdev
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane
+Filename: ./debs/SugarCane16rootless.1.3.deb
+Size: 5960
+MD5sum: da25600d2f423e2600264a5268a611b4
+SHA1: 0376fda44e24d125044c721f9f5a067e6b2e010e
+SHA256: 622dfa35b2141ae790b2e21985be1707f2dc683e8732eba9bf9ddc566e853f13
+Section: 嗨-工具
+Description: 为iOS13～16的控制中心音量/亮度条添加数字百分比，无设置。
+Author: iOS Creatix, kasiimh1, p2kdev
+Name: SugarCane 16(rootless)
+
 Package: com.daodao.nocshare
 Version: 1.1.3
 Architecture: iphoneos-arm64
@@ -323,6 +408,23 @@ Section: 嗨-汉化
 Description: Shuffle 简体中文包(rootless)。
 Author: 妖刀
 Name: Shuffle 简体中文包(rootless)
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/Snapper3.1.2.1.deb
+Size: 1034168
+MD5sum: 59024ceacee24671700020ed04dc69f8
+SHA1: 5beac36302a9bc94b9145e05b4a0ab5b767e6a38
+SHA256: 00742249076f29794631cb0414c43b2c1ead7e71a610155f80bad143dcbd1b66
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -409,6 +511,38 @@ Description: Display Notification Avatars for QQ App using iOS15+ APIs
 Author: Netskao
 Name: QQNotiAvatar
 
+Package: com.netskao.storeswitchaccounts
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/StoreSwitchAccounts.1.1-4.deb
+Size: 102364
+MD5sum: 118e4d4b82cf17ce102a753ee222bbed
+SHA1: 37e86d8baa9ecd749d4e95a08af4c9dc847f1a26
+SHA256: 3bda5bf0d3800fb26fa3ff8dbdf6f9477fd55dfb2acd81dd19401790149eb6c2
+Section: Netskao-Tweaks
+Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
+Author: Netskao
+Name: StoreSwitchAccounts
+
+Package: com.netskao.wechatnotiavatar
+Version: 1.2-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2336
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/WeChatNotiAvatar.1.2-5.deb
+Size: 522504
+MD5sum: 15a022866060e2b18e9b2d9617870375
+SHA1: 7f8f85006a6bc7c66346244161a34c410c831ce6
+SHA256: ddeb5180e45938ddfea790b6cd77fc078ba027f2a2b0d6362a3eeec721e5430b
+Section: Netskao-Tweaks
+Description: Display Notification Avatars for WeChat App using iOS15+ APIs
+Author: Netskao
+Name: WeChatNotiAvatar
+
 Package: com.opa334.ccsupport
 Version: 1.3.13-2
 Architecture: iphoneos-arm64
@@ -474,6 +608,106 @@ Author: Tanner Bennett <thepantsthief@me.com>
 Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
 Name: FLEXing
 Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./debs/SmoothCursoriOS13+.0.0.1.deb
+Size: 3084
+MD5sum: 75d8c7d07139875450e273cf87723f59
+SHA1: e78d6e2dea24fc0cd8e603060d7aec36a1bd4987
+SHA256: 90346415364ed49e808848c01f16cb3b69ae53dd539b797b51a061c1e9dfa84e
+Section: Tweaks
+Description: Office 2013-styled cursor animation.
+Author: PoomSmart
+Name: SmoothCursor (iOS 13+)
+
+Package: com.spark.snowboard
+Version: 1.5.37-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3268
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/SnowBoard.1.5.37-Beta4-rootless.deb
+Size: 1249516
+MD5sum: f8b62c01d76234de1c329b7ce9284ab4
+SHA1: f4eef74ae0ed5c9aa2d029b7f722a6dd9f15c389
+SHA256: e95357b27ca0a380bf141fb35f5532d1e4f43ca8eed779087f4c3391145f4236
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+
+Package: com.spark.snowboard.effects
+Version: 1.2.2-Beta2-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 412
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoardIconEffectsExtension.1.2.2-Beta2-rootless.deb
+Size: 33036
+MD5sum: d391fd4cf5c4d9de805c1c9d8af55b09
+SHA1: 6d83e92975dc3b11d605056aa71c156e15934c43
+SHA256: 461da81ca933a4e154f8da9bb2d9b19f1332bf567061806cae0d3e9844dc0bba
+Section: SnowBoard Extensions
+Description: Icon Effects for SnowBoard
+Author: Spark
+Name: SnowBoard Icon Effects Extension
+
+Package: com.spark.snowboard.labels
+Version: 1.1.1~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 432
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoardLabelsExtension.1.1.1~Beta4-rootless.deb
+Size: 25424
+MD5sum: 4575195c8411b20acb2694a859f2c25d
+SHA1: b055b15da4e7abad5e75c2b0a753148e4802f128
+SHA256: 518abde005394d75de62be26c7d4d0b724ae1c93cda84528f00b25cc1209c203
+Section: SnowBoard Extensions
+Description: Labels for SnowBoard
+Author: Spark
+Name: SnowBoard Labels Extension
+
+Package: com.spark.snowboard.settingsicons
+Version: 1.0.26~Beta3-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 340
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoardSettingsIconsExtension.1.0.26~Beta3-rootless.deb
+Size: 17740
+MD5sum: 4fb2513bccbbfc2f2c7433caad2241ab
+SHA1: 3f2d0d4b97cc433e245b0d0f87c05201c5b6340e
+SHA256: 2a08cad2150da1817d57b3b2541b780dc307f50a161021dff501690c5babcd89
+Section: SnowBoard Extensions
+Description: Settings Icons for SnowBoard
+Author: Spark
+Name: SnowBoard Settings Icons Extension
+
+Package: com.spark.snowboard.ui
+Version: 1.3.0~Beta2-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 476
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: ./debs/SnowBoardUIExtension.1.3.0~Beta2-rootless.deb
+Size: 65428
+MD5sum: cc9b5539d3bd07b3cb029655428fd5db
+SHA1: 95475ef1d7cad4ef22f5f45c95782ea1b0cb2875
+SHA256: 29b2f5413fb3d022bba1517342661d38f39920aac848d2113d673531c09b5776
+Section: SnowBoard Extensions
+Description: UI Extension for SnowBoard
+Author: Spark
+Name: SnowBoard UI Extension
 
 Package: com.sunshinesong.recorder-bubble
 Version: 0.0.1
