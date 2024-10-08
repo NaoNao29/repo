@@ -66,6 +66,22 @@ Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-ll
 Name: STTool
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
 
+Package: cn.llld.zyll
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/最右绿化-rootless.1.3.deb
+Size: 16240
+MD5sum: f7186e70b88556f28d9c936a8ac331c5
+SHA1: 5e93c64efd153559c7c7e32838663818d1fd6198
+SHA256: 9ee0372a9531c365115a05daa062a421b35bedf7263716a8ab2fed67c48ac095
+Section: rootless应用插件
+Description: 可注入可越狱使用。去除启动页视频图片摇一摇广告，去除首页推荐和帖子评论区广告，去除帖子下群组社区推荐，禁用首页左上角话题，禁用首页右上角搜索，禁用推送广告，禁用消息角标，开启全屏视频浏览模式，开启视频下载无水印，等等。***'我的'页面长按头像下方控件或首页顶栏或任意帖子内顶部，弹出设置***。建议用6.0.9版本或以内的，新版本除了臃肿增加广告以外，一无是处。
+Author: 来了老弟
+Name: 最右绿化-rootless
+
 Package: cn.octoforce.copyvault
 Version: 1.5.6
 Architecture: iphoneos-arm64
@@ -144,6 +160,73 @@ Icon: file:///var/jb/Library/PreferenceBundles/0rzFolder.bundle/icon@2x.png
 Name: Hello Folder
 Sileodepiction: https://rootless.zq666.eu.org/web/cn.zqbb.orzfolder
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.25mao.doutu.rootless
+Version: 3.1-5
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/斗图助手-Rootless.3.1-5.deb
+Size: 1209876
+MD5sum: 87534495a24efa718ca920b8f66026b1
+SHA1: 2208384da7055c89d144a7aed16224710df79efc
+SHA256: c4e36930057e778db8fb0487d0295c5e20f50bac71e795966a13e0351955404e
+Section: Rootless
+Priority: optional
+Description: 斗图助手-Rootless
+Author: Mao
+Name: 斗图助手-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.25mao.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/左滑返回-Rootless.1.0-6.deb
+Size: 44240
+MD5sum: b6df0a58a19fc13f7933569474e388e7
+SHA1: f5ce7a2544c865dbce6de4aefc57077d0b6ae2c9
+SHA256: 71e958814b9bb43a05c665668813d1d04221bda454cea805537dada126027e04
+Section: Rootless
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回-Rootless
+
+Package: com.25mao.miyou.rootless
+Version: 3.8-0
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信助手-Rootless.3.8-0.deb
+Size: 10164028
+MD5sum: a135502965409c1c2bbb305da4f25634
+SHA1: 092284f0a60e8a8c06bb2f93532c8e88213c763d
+SHA256: b5d62e09b870e0774838374b52034946ae059fc6c6f928d0521d82116a98f00a
+Section: Rootless
+Priority: optional
+Description: 微信助手-Rootless版
+Author: Mao
+Name: 微信助手-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.25mao.wcplugins.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件管理-Rootless.0.1-3.deb
+Size: 19628
+MD5sum: b5544d1b1c9642302eb380cb83d4ca2e
+SHA1: c1f1a480d3d403ce8ca2c0c4d9b148cc672750f4
+SHA256: 14228c83c842db08e09bd83ab49334036910b86b90402a4ea94296b65ce78c95
+Section: Rootless
+Priority: optional
+Description: 插件管理-Rootless
+Author: Mao
+Name: 微信插件管理-Rootless
+Sponsor: admin@25mao.com
 
 Package: com.82flex.noredirect
 Version: 1.8
@@ -347,6 +430,21 @@ Description: 移除分享菜单中烦人的投送和联系人，基于i_82的源
 Author: Devvix
 Name: NoCShare(rootless)
 
+Package: com.hbwechathelper.ailun
+Version: 1.7.5
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手微信插件-Rootless.1.7.5.deb
+Size: 9410576
+MD5sum: aa2062d39391c044b9f9d040343af2cf
+SHA1: d92cb820404d85c9ce142cbc25f85634fb9649ac
+SHA256: ed23dcd07899e0363bf9afad646f8db8185e5975258d2881b3a8b9a20b050558
+Section: Mao
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Rootless
+
 Package: com.hk.atria.cn.rl
 Version: 1.4.1
 Architecture: iphoneos-arm64
@@ -443,6 +541,42 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.lenglengyu.baidunetdiskoutput-rootless
+Version: 1.0.1K
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 616
+Depends: mobilesubstrate
+Filename: ./debs/百度网盘缓存文件导出-Rootless.1.0.1K.deb
+Size: 142352
+MD5sum: 81e6b57846ac8233889a5ec408add994
+SHA1: 05f5b929cd2db4d9fcdafe64cfb6e09eb6d43705
+SHA256: ee5c45456f64ce8174a2524ae490f9b7e9ad1ec3c7694183e1b4ca0703a8b0b1
+Section: Tweaks
+Description: 缓存文件添加导出按钮，免去每次进入路径寻找文件的繁琐方式。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/baidunetdiskoutput.html
+Name: 百度网盘缓存文件导出-Rootless
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/baidunetdiskoutputsileo
+
+Package: com.lenglengyu.baimiao-rootless
+Version: 2.0.8K
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 580
+Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
+Filename: ./debs/白描-Rootless【会员破解】.2.0.8K.deb
+Size: 142056
+MD5sum: 2f06b77fd48d1c50c4de02d682e7ce67
+SHA1: 589a98b0b4335199589932e82bd3961402aa299f
+SHA256: 077a851976fbd95f1d7e56043a5e2d66af0505d03d6ee77ee38357a3d09eb2dc
+Section: Fugu15
+Description: 解锁黄金会员权限，仅供会员使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/baimiao.html
+Name: 白描-Rootless【会员破解】
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/baimiaosileo
+
 Package: com.lenglengyu.fixxinamine-rootless
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -478,6 +612,44 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/iapstorefugu.html
 Name: IAPStore-Rootless【内购神器】
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/iapstorefugusileo
+
+Package: com.lenglengyu.jianyingpro-rootless
+Version: 0.0.4K
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 596
+Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
+Filename: ./debs/剪映-轻而易剪-Rootless【会员破解】.0.0.4K.deb
+Size: 151460
+MD5sum: 8d9cddd82ad7f73c4c492f8bac2b0e31
+SHA1: 3dbaa1e6a1d33d3d02b6213957e90a8446e72560
+SHA256: 6aa77b1c015bdf6e131eb9837f7c5dd9bcaa342a7937c3e7f88c609168c31372
+Section: Fugu15
+Description: 解锁会员权限，解锁付费模版，仅供会员使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/jianyingpro.html
+Name: 剪映-轻而易剪-Rootless【会员破解】
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/jianyingprosileo
+
+Package: com.lenglengyu.videohelper-rootless
+Version: 2.7.0
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3156
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0)
+Conflicts: com.lenglengyu.agmjpro, com.lenglengyu.amjpro, com.lenglengyu.hjsppro, com.lenglengyu.huashutv, com.lenglengyu.xngyspro, com.lenglengyu.qqyspro, com.lenglengyu.rrsphook, com.lenglengyu.wzdypro, com.lenglengyu.wlyspro, com.lenglengyu.xamjpro, com.lenglengyu.ylyspro, com.lenglengyu.bilibilipro, com.lenglengyu.boxsqhook, com.lenglengyu.hanjutv
+Filename: ./debs/影视助手-Rootless.2.7.0.deb
+Size: 927652
+MD5sum: d5056520b2c14d66dd24647170bdabf3
+SHA1: 5a661e647cf5f65deab5b7aa26c5207f72297a57
+SHA256: 105af30014db79f5361fc41b9b03908330973719637dd7b8bcd0edab67cc98a9
+Section: Fugu15
+Description: 各种影视APP破解工具，仅供会员使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/videohelper.html
+Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
+Name: 影视助手-Rootless
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
 
 Package: com.netskao.appdata
 Version: 1.4.2
@@ -743,6 +915,92 @@ Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.xx.dyhook
+Version: 2.0.6
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 10588
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/抖音图层.2.0.6.deb
+Size: 3729700
+MD5sum: 22869626d1abcdc48a2bf22914a67ba1
+SHA1: c10e1a16adc16286cbf09183ff290d227d72ae93
+SHA256: 06fda134cd47d90f335561c1081c44760c4b1248202c0a179d74a99ec334ed92
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.xhshook
+Version: 1.1.0-3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 3196
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/小红薯.1.1.0-3.deb
+Size: 1113016
+MD5sum: 1998c9768aa3efdceae3d0556a8c0b63
+SHA1: 1a2c96d124573b94428a80050c9b32716ef21aeb
+SHA256: 1e5fe9cc1fe9e288210a204b821cb5319a85eb99c8157fb193687ace7fab0d79
+Section: Tweaks
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制
+Author: x✨
+Name: 小红薯
+
+Package: com.xybp888.callassist16.dopamine
+Version: 1.6.4
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/电话助手iOS16-正式版Rootless.1.6.4.deb
+Size: 2682592
+MD5sum: 10110ae750b5ee60087510269c42d386
+SHA1: efbb3e7f85c56739b5e19b4a9687f57b2c439c49
+SHA256: b03e9502656aae9282c98ce355679c45f8d2ee33597864150d5268ee2f1107aa
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Depiction: https://apt.htv123.com/view/140
+Name: 电话助手iOS16-正式版(Rootless)
+Sileodepiction: https://apt.htv123.com/sileo/140
+
+Package: com.xybp888.magiciannojailbreak.dopamine
+Version: 0.0.1-192
+Architecture: iphoneos-arm64
+Maintainer: xybp888 <8657156@qq.com>
+Installed-Size: 496
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/魔术师iOS16.0.0.1-192.deb
+Size: 82976
+MD5sum: 10abaadeb751ca046fab917c0ca3ee11
+SHA1: b71ed14a92a0d012d714ad1f0bbd77a44311b017
+SHA256: 3f0d7240d3e9c996c4f7d87cbf5c5d952351cf46dbb9f520048822654b94c4e4
+Section: Tweaks
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/139
+Name: 魔术师(iOS16)
+Sileodepiction: https://apt.htv123.com/sileo/139
+
+Package: com.xybp888.perfectdynamiclsland
+Version: 0.1-5
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: ./debs/灵动通知Rootless.0.1-5.deb
+Size: 311652
+MD5sum: 2e391437856bc27911f24de910b592f2
+SHA1: 055984edf6f9324b6be4bde5154fc6a7d44883ae
+SHA256: 8b99a90bb0df247b3e45fab19360952fc15f3aece9f452bcd7d9c92d5f07205b
+Section: System
+Priority: optional
+Description: 电话助手激活用户专属免费插件
+Author: xybp888
+Depiction: https://apt.htv123.com/view/141
+Name: 灵动通知(Rootless)
+Sileodepiction: https://apt.htv123.com/sileo/141
 
 Package: com.yan.fiona
 Version: 1.0.7
