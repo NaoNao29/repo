@@ -14,6 +14,40 @@ Description: Flexlist，Flexing,Flexible,Flexall等调试工具--(rootless)简�
 Author: 来了老弟 h_h_x_t
 Name: Flexlist，Flexing汉化-rootless
 
+Package: cn.llld.kbtool
+Version: 2.4.0-3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 11300
+Depends: mobilesubstrate
+Filename: ./debs/PToolskeyboard.2.4.0-3.deb
+Size: 3384068
+MD5sum: 7182dfecfe830c498fca38ad1391df10
+SHA1: 7c5ab36e12d3b25ab7302ba46988eb40c0292852
+SHA256: 8899d551e70ab67c439446fb6b8ea61fc33686cdadc01598dfd0d8d9c21fbc44
+Section: rootless应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: PTools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.pixactpro
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Pixact-Pro.0.0.1.deb
+Size: 5452
+MD5sum: fa45717b8a00210fe64954225af7723c
+SHA1: 6ac598fce8bdf9005740cdd8b7db716fcc112967
+SHA256: 9fe99aef7c5c0cc4fb23cae7f6a18fac987814d285de4071492bd2f42cab89b8
+Section: rootless应用会员
+Description: Pixact专业版
+Author: 来了老弟 X：h_h_x_t
+Name: Pixact-Pro
+
 Package: cn.octoforce.copyvault
 Version: 1.5.6
 Architecture: iphoneos-arm64
@@ -75,6 +109,38 @@ Name: Hello Folder
 Sileodepiction: https://rootless.zq666.eu.org/web/cn.zqbb.orzfolder
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.82flex.noredirect
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/NoRedirect.1.8.deb
+Size: 53612
+MD5sum: 8cef3b18ccbb8d2dc5a49d3db75a2e69
+SHA1: da613113209f94757938b971101b42d07e4aeb3f
+SHA256: 7cfff5410c9e9259f9a471227c04956463e80bce70c470c67c8d707356c8174e
+Section: Tweaks
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Author: Lessica <82flex@gmail.com>
+Name: No Redirect
+
+Package: com.82flex.removewidgetbg
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/RemoveWidgetBackground.1.6.deb
+Size: 30128
+MD5sum: f9650c03d2f8566f108252360d2ff3aa
+SHA1: acdb72ae47cfb26a49c89294cc4dc997370f52fa
+SHA256: d272460a5d3612d5c335c631ccf6f212dc7f63fa1830f78a13949b2cadef63ac
+Section: Tweaks
+Description: Remove the background of the widgets on the home screen.
+Author: Lessica <82flex@gmail.com>
+Name: Remove Widget Background
+
 Package: com.be-huge.floating-view
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -90,6 +156,47 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
+
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/Shuffle.1.6.2.deb
+Size: 253948
+MD5sum: 2a22b7461cae6f5ed82ad776ace1009b
+SHA1: 99b7cbe3caf19cdaefd1226ae740bb6620b4426c
+SHA256: 2b10dae8a5f788e6a66f6895c5a5ef50227eade96b70c6c1d46e0839053353af
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.curtin.pkc.rootless
+Version: 0.6-0
+Architecture: iphoneos-arm64
+Maintainer: Curtin <curtinlv@126.com>
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根.0.6-0.deb
+Size: 594764
+MD5sum: f0f7c05405bfe19c1b79a93dfcb64446
+SHA1: 1832fc2531e30034a325e17894d606e7e5420596
+SHA256: 1d4821d60df3c83d11b7ae960fd740f91585cd4d3726becb670f7a2b0b5472da
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Author: Curtin <curtinlv@126.com>
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
 
 Package: com.dao.batteryhealth
 Version: 1.0.1
@@ -107,6 +214,53 @@ Section: 嗨-工具
 Description: 修复更换电池后，电池健康显示维修或无法验证的问题，无设置，自动生效。
 Author: PoomSmart
 Name: BatteryHealth(rootless)
+
+Package: com.dao.safarix
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), com.dao.safarix.cn
+Conflicts: com.0xkuj.safarix, byg.iosios.net.safarix
+Filename: ./debs/SafariXrootless.1.3.0.deb
+Size: 276780
+MD5sum: 3e0e407f790d5f1dde3f2244332c76f0
+SHA1: 5e8e7fa70b8bb7ebb671761ecc8544f063bdc2ef
+SHA256: 321c8825f3c65dc9fdb9d38fa8e78099e1d7cc4205905244d1017190c841930d
+Section: 嗨-工具
+Description: Safari 浏览器多功能增强插件！
+Author: 0xkuj
+Name: SafariX(rootless)
+
+Package: com.dao.safarix.cn
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/SafariX简体中文包rootless.1.3.0.deb
+Size: 6608
+MD5sum: 342cb5b7994bf0318ae09a1cf02ccd45
+SHA1: 90fed12f0490ba3206729e4dbc9e9b21ec375a2d
+SHA256: 82673860f00881b40295b31fd67a98c26bfab4b1004c921bfafcdc93a0bd9646
+Section: 嗨-汉化
+Description: SafariX 简体中文包(rootless)。
+Author: 妖刀
+Name: SafariX 简体中文包(rootless)
+
+Package: com.daodao.nocshare
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: 老Mo
+Depends: mobilesubstrate
+Conflicts: com.devvix.nocshare
+Filename: ./debs/NoCSharerootless.1.1.3.deb
+Size: 7096
+MD5sum: fcce7482485865c1e94c7224001dd95c
+SHA1: 92f1e4622433b49bc01524f92ed46cd452c2fb08
+SHA256: 0cc73943842b5275e69f87b99b3ca2ccdd73f4a9b6cd9aca86eee17d9299d727
+Section: 嗨-工具
+Description: 移除分享菜单中烦人的投送和联系人，基于i_82的源码修复支持16系统。
+Author: Devvix
+Name: NoCShare(rootless)
 
 Package: com.hk.atria.cn.rl
 Version: 1.4.1
@@ -154,6 +308,21 @@ Description: 集合的控制中心模块：定位、注销、设置、VPN、自�
 Author: 妖刀
 Name: CCLess++(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
+Package: com.hk.shuffle.cn.rl
+Version: 1.6.2-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: ./debs/Shuffle简体中文包rootless.1.6.2-1.deb
+Size: 10724
+MD5sum: aeacfb114052b25d42f836927d490612
+SHA1: e4b321be1ea57523f963433e77c6b4875eeda6c5
+SHA256: 34c17af49b1b96a6b0aec78cfb74ffd9f0411f30d4e43777175fb00e4ecdcd7b
+Section: 嗨-汉化
+Description: Shuffle 简体中文包(rootless)。
+Author: 妖刀
+Name: Shuffle 简体中文包(rootless)
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -223,6 +392,22 @@ Section: Netskao-Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
 Name: AppData
+
+Package: com.netskao.qqnotiavatar
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 204
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/QQNotiAvatar.1.2-2.deb
+Size: 25592
+MD5sum: e4daa1a5bbae0659b32b7c9870fac78d
+SHA1: 9ddf2309ff3abe435451dd217ac8fcda01692dfa
+SHA256: 542c25fdddc2baade3fd54b2af718d0c25812330ef9797a3ae8db459b535acde
+Section: Netskao-Tweaks
+Description: Display Notification Avatars for QQ App using iOS15+ APIs
+Author: Netskao
+Name: QQNotiAvatar
 
 Package: com.opa334.ccsupport
 Version: 1.3.13-2
@@ -358,6 +543,43 @@ Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时
 Author: zqbb
 Name: Hello Snapper
 Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+
+Package: dev.theos.orion14
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 514
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.2)
+Filename: ./debs/OrionRuntimeiOS14–17.1.0.2.deb
+Size: 93516
+MD5sum: 14d36ac0ac1c43f236e98e32d1142789
+SHA1: 7505d22d46ccda06405d37149aa0257d2e5cb443
+SHA256: a225c6fc715b406fdcc180466b9da8124ef25908bdad9022e7de442f62161f67
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: Theos Team <support@theos.dev>
+Depiction: https://chariz.com/get/orion-runtime14
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Name: Orion Runtime (iOS 14 – 17)
+
+Package: firmware
+Version: 16.3
+Architecture: all
+Essential: yes
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 0
+Filename: ./debs/OSFirmware.16.3.deb
+Size: 796
+MD5sum: 50ca2d5209f3fbbe8da3e02908262a6e
+SHA1: 4bf4cabe4a985629655e0afa9a0b29aea04dce31
+SHA256: b71ee68b413da896c5113f43b68412a8d2e0a97aff73ccad0fd88d14186e0a44
+Section: System
+Priority: required
+Description: almost impressive Apple frameworks
+Tag: role::cydia
+Name: OS Firmware
 
 Package: libflex
 Version: 5.22.10
