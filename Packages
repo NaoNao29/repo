@@ -48,6 +48,24 @@ Description: Pixact专业版
 Author: 来了老弟 X：h_h_x_t
 Name: Pixact-Pro
 
+Package: cn.llld.snapshottool
+Version: 1.3.0-2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 2996
+Depends: mobilesubstrate
+Filename: ./debs/STToo_1.3.0-2_iphoneos-arm64.deb
+Size: 854932
+MD5sum: d450a02a1155a0ccea05c11b09e9dff4
+SHA1: c123a02c3c7ca8a6e32d2e3671fe4c63897700bb
+SHA256: fd4d8005f6d7f9a072715bdd6df9772acc89b0d2ff921ba3c6e3b54d441dec61
+Section: 应用插件
+Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+Name: STTool
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
 Package: cn.octoforce.copyvault
 Version: 1.5.6
 Architecture: iphoneos-arm64
@@ -65,6 +83,24 @@ Description: 激活码用户或需要激活码的用户安装这个，非激活�
 Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.5.3
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 7308
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/Squidgesturepro_2.5.3_iphoneos-arm64.deb
+Size: 2147324
+MD5sum: 919f87e9995de17d4fb99cfe78cbf1d0
+SHA1: a3f6bebc060b0021781a9007264805bedbe78fa2
+SHA256: 2f4a4cc642f8e89516a6aacec48e26533456b6e36018bb4f9214b2fddf7848d7
+Section: 系统插件
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
 Package: cn.zqbb.fix120hz
 Version: 1.2.0-55
@@ -125,6 +161,38 @@ Description: 停止指定的应用程序重定向到App Store、Safari或其他�
 Author: Lessica <82flex@gmail.com>
 Name: No Redirect
 
+Package: com.82flex.singlemute
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 380
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/singlemute_1.4_iphoneos-arm64.deb
+Size: 23692
+MD5sum: fbab08136a53c8b84e23eb3f7d914b2f
+SHA1: 189b0b9011382fc303d44dd632204ef75820e1f6
+SHA256: 20b7a7052863442d1aa236c0fe2c2fdc682dd50c22cd7d2acea239494a059fa1
+Section: 系统插件
+Description: iOS状态栏上只有一个静音图标。
+Author: 82Flex <82flex@gmail.com>
+Name: Single Mute
+
+Package: com.82flex.touchvis
+Version: 3.10
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3132
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Touch-Viz_3.10_iphoneos-arm64.deb
+Size: 714412
+MD5sum: 65ce087fb4dfeb5d119bd3bd532480cb
+SHA1: 0a93dde01f2cea835dc8821b30025be888992c74
+SHA256: b5da432d1c5f1320cee77cdae33a2a663654a1339948e9df96fa2b6257b699ca
+Section: 系统插件
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
+
 Package: com.be-huge.floating-view
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -140,6 +208,30 @@ Section: 系统插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
+
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/shuffle_1.6.2_iphoneos-arm64.deb
+Size: 253968
+MD5sum: 06a4493ce31624cfa2cf615f8f6ca4e1
+SHA1: 365198f130835161dff4b3742b2194e5185b6303
+SHA256: 1a585440fb945f413dc3adf5544d0cfd715a6dbf90f62adfc61478d421a10ef6
+Section: 系统插件
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
 
 Package: com.curtin.pkc.rootless
 Version: 0.6-0
@@ -174,6 +266,37 @@ Section: 工具
 Description: 修复更换电池后，电池健康显示维修或无法验证的问题，无设置，自动生效。
 Author: PoomSmart
 Name: BatteryHealth(rootless)
+
+Package: com.dao.safarix
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), com.dao.safarix.cn
+Conflicts: com.0xkuj.safarix, byg.iosios.net.safarix
+Filename: ./debs/safarix_1.3.0_iphoneos-arm64.deb
+Size: 276820
+MD5sum: d41fbe39dc8eb7c1799eca43d46dd286
+SHA1: daa1dea7ca809d8057a30a266685b255ad1931ca
+SHA256: b399794a2cae8e517bad6c4b36900af68bb8a4a53143b176a824a2b88f6b6e7b
+Section: 应用插件
+Description: Safari 浏览器多功能增强插件！
+Author: 0xkuj
+Name: SafariX(rootless)
+
+Package: com.dao.safarix.cn
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/safarix汉化_1.3.0_iphoneos-arm64.deb
+Size: 6616
+MD5sum: 1a0d2d90ae006618570d24162fa3f419
+SHA1: d7340ee71f063ee775247de1d8d35d06c78bb195
+SHA256: b2053be19b2d6c5418bf7b76cc139c349e0cd13eaf74c81a5f77ced6bdb871a6
+Section: 汉化
+Description: SafariX 简体中文包(rootless)。
+Author: 妖刀
+Name: SafariX 简体中文包(rootless)
 
 Package: com.daodao.nocshare
 Version: 1.1.3
@@ -222,6 +345,38 @@ Description: 集合的控制中心模块：定位、注销、设置、VPN、自�
 Author: 妖刀
 Name: CCLess++(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
+Package: com.hk.shuffle.cn.rl
+Version: 1.6.2-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: ./debs/Shuffile 简体中文包_1.6.2-1_iphoneos-arm64.deb
+Size: 10716
+MD5sum: e31b870281b7246041759aa733b7b1c5
+SHA1: 0df0d63d907f313eecb37e28cce4e9f6ea050401
+SHA256: 969617d0d6c11f07417d86d16d7bd8ab7816079f2f9bbaff26b39f7c204a472d
+Section: 汉化
+Description: Shuffle 简体中文包(rootless)。
+Author: 妖刀
+Name: Shuffle 简体中文包(rootless)
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/Snapper3_1.2.1_iphoneos-arm64.deb
+Size: 1034968
+MD5sum: cd499d2340ee80fb83fa4225c893a337
+SHA1: 68d675f4663e47d593b8cc8a86f7c91bfa15995f
+SHA256: f373c39f8d3d92bd5698f0542d21b9e5ae25e6dd6dff1e5fbfc363e7574abc61
+Section: 系统插件
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -291,6 +446,22 @@ Section: Netskao
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
 Name: AppData
+
+Package: com.netskao.qqnotiavatar
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 204
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/QQ通知头像r_1.2-2_iphoneos-arm64.deb
+Size: 25592
+MD5sum: c9cebcb3f6e953ae64f95d843745dbb2
+SHA1: 4af46f28b8d9d0e0abf7c1b5caad19acd85f2a84
+SHA256: d28551f9257841db5d14ee8304d1e6c5d1b6412b97aa096b04f2e03c240ccde1
+Section: 应用插件
+Description: QQ通知头像
+Author: Netskao
+Name: QQNotiAvatar
 
 Package: com.netskao.storeswitchaccounts
 Version: 1.1-4
@@ -373,6 +544,42 @@ Author: Tanner Bennett <thepantsthief@me.com>
 Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
 Name: FLEXing
 Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./debs/smoothcursorios13_0.0.1_iphoneos-arm64.deb
+Size: 3092
+MD5sum: 9c54d6a7b703c33e8d51a4ff28073fd0
+SHA1: 94ab99702912fd5076c2f53afbcb1e5aa40e0e13
+SHA256: ebbb39eb7f9cb266dbb81d7dc40b31552c3957e153ed28882fd402dcea595829
+Section: 系统插件
+Description: 丝滑光标
+Author: PoomSmart
+Name: SmoothCursor (iOS 13+)
+
+Package: com.spark.snowboard
+Version: 1.5.37-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3268
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/snowboard_1.5.37-Beta4-rootless_iphoneos-arm64.deb
+Size: 1248312
+MD5sum: 4d491102ca69169e26377907317241c1
+SHA1: c39e66a0c47bde0133550b1c367623a3dd867098
+SHA256: 1c013c833b843cff1784d9e32e652e0b7ca41f392549da731e90e627d076ea42
+Section: 系统插件
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
 
 Package: com.udevs.dockx
 Version: 2.6.2
