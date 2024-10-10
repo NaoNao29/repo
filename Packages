@@ -83,6 +83,24 @@ Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-ll
 Name: STTool
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
 
+Package: cn.llld.snapshottool
+Version: 1.4.0-1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 3044
+Depends: mobilesubstrate
+Filename: ./debs/STTool.1.4.0-1.deb
+Size: 866900
+MD5sum: cbdb82bb2d2a59c85463797a255b3d9a
+SHA1: 3d8104844cf41d8fd945079670ed17b4c5100926
+SHA256: 40dae36acf7b936516a3ebe6eda44df52d6b46bf9a5044aacb798f945266189d
+Section: 应用插件
+Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+Name: STTool
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
 Package: cn.llld.zyll
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -274,6 +292,22 @@ SHA1: 4ca95d18a7debfee1398a91bc527c41ad6554c2d
 SHA256: 72da63bcf7c4955f992bfd1ed7d244a47ee35cc33f8e090204edf139866950c0
 Section: 系统插件
 Description: 删除主屏幕上小部件的背景。
+Author: Lessica <82flex@gmail.com>
+Name: Remove Widget Background
+
+Package: com.82flex.removewidgetbg
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/小组件背景透明1.7.deb
+Size: 5524
+MD5sum: 49f0eaaf0c13450905ffc9dc2fb39a0a
+SHA1: f381f906c0abd3813a3a07a9f5f46de7abbf9fe9
+SHA256: 0a44fa904aab64e4956ce0d7c4b312c266a55f3c05d2020bc3089d1011bf5523
+Section: 系统插件
+Description: 删除主屏幕上任何应用程序小部件的背景。
 Author: Lessica <82flex@gmail.com>
 Name: Remove Widget Background
 
@@ -645,6 +679,26 @@ Size: 928136
 MD5sum: 6fe2a6710fb53b348eff0d8f321b39c5
 SHA1: 9b4e21ff151c670d141748612172e89bf636c8a1
 SHA256: c562a4e0997622e9168dd04ff9679a18599cee660ebcf3c801948db911b787c0
+Section: APP增强
+Description: 各种影视APP破解工具，仅供会员使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/videohelper.html
+Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
+Name: 影视助手-Rootless
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
+
+Package: com.lenglengyu.videohelper-rootless
+Version: 2.7.1
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3180
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0)
+Conflicts: com.lenglengyu.agmjpro, com.lenglengyu.amjpro, com.lenglengyu.hjsppro, com.lenglengyu.huashutv, com.lenglengyu.xngyspro, com.lenglengyu.qqyspro, com.lenglengyu.rrsphook, com.lenglengyu.wzdypro, com.lenglengyu.wlyspro, com.lenglengyu.xamjpro, com.lenglengyu.ylyspro, com.lenglengyu.bilibilipro, com.lenglengyu.boxsqhook, com.lenglengyu.hanjutv
+Filename: ./debs/影视助手2.7.1.deb
+Size: 956236
+MD5sum: d8d80437a0bea7bc48baaf89781c478c
+SHA1: d186013c7b27c943f8c397e73a0d68f87586d3c3
+SHA256: ee4654e796380a4f59f5ca32609cb72323db8035fb2831111f88b6e4b233bf8d
 Section: APP增强
 Description: 各种影视APP破解工具，仅供会员使用。
 Author: lenglengyu
