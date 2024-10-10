@@ -871,6 +871,23 @@ Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
+Package: com.xx.dyhook
+Version: 2.0.6+8
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 11056
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/抖音图层.2.0.6+8.deb
+Size: 3902448
+MD5sum: cf6636675737a8fe299dccc3fc2fb59c
+SHA1: 195032bfabeb072a09d177bc947866e451b83ef1
+SHA256: aabf577125bd0ebf7f61d75c5c8bd683bd4bae995b6b7253698a08f8249caff5
+Section: APP增强
+Description: 仅越狱可用，抖音图层2.0.6+8
+Author: x✨
+Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
+Name: 抖音图层
+
 Package: com.xx.xhshook
 Version: 1.1.0-3
 Architecture: iphoneos-arm64
