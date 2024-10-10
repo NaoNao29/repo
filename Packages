@@ -1,0 +1,204 @@
+Package: cn.zqbb.fix120hz
+Version: 1.2.0-55
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 1564
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: ./debs/cn.zqbb.fix120hz_1.2.0-55_iphoneos-arm64.deb
+Size: 354936
+MD5sum: c8b9e55bc7da5ffd4c955eea09f5d6e5
+SHA1: 2cd8110c5241b1578beeb73cc2e419f3ff173e58
+SHA256: 875334c91ca87d3dfdb204df250f722c416ef5d91e7e05097d3a22d252e64d43
+Section: 系统插件
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+Name: Hello 120Hz
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: cn.zqbb.orzfolder
+Version: 1.2.3-3
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2123
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/cn.zqbb.orzfolder_1.2.3-3_iphoneos-arm64.deb
+Size: 503824
+MD5sum: e6c4fa1d5981a0be62fac3355ca6309a
+SHA1: 5c628c91a868aa0010a2fe9783370f8493d771d5
+SHA256: 96fb926a1ab26f0942b87f61a396d9b9cc981736ae89764f59fc905576a13ac6
+Section: 系统插件
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=orzfolderDp
+Description: Folder Layout Customization Tool
+ - 文件夹颜值 ? 美 : 丑
+Tag: purpose::extension
+Author: zqbb <w2599z@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=orzfolderDp
+Dev: zqbb
+Icon: file:///var/jb/Library/PreferenceBundles/0rzFolder.bundle/icon@2x.png
+Name: Hello Folder
+Sileodepiction: https://rootless.zq666.eu.org/web/cn.zqbb.orzfolder
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.dao.batteryhealth
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Conflicts: com.ps.batteryhealthenabler
+Filename: ./debs/com.dao.batteryhealth_1.0.1_iphoneos-arm64.deb
+Size: 5764
+MD5sum: 4940f65bbdcc5944b13064031094baf2
+SHA1: b80fae3fafcdce1e908909dfc458e7232f99724a
+SHA256: 815d2d96f504ff05ec98a9aaea198e7ba9e98c7ba3aee3313ef56c9fa995fa76
+Section: 工具
+Description: 修复更换电池后，电池健康显示维修或无法验证的问题，无设置，自动生效。
+Author: PoomSmart
+Name: BatteryHealth(rootless)
+
+Package: com.hk.choicy.cn.rl
+Version: 1.4.6
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: ./debs/choicy.cn.rl_1.4.6_iphoneos-arm64.deb
+Size: 4284
+MD5sum: 76807baf2bd2d3796b7b0e895c4bcd86
+SHA1: 0d395801dbe6191e24291e49f3d6d359b6cea954
+SHA256: 0eb20999e458a36d8703e918b78f01399cbb95c821473b7f75fc6d9bf1caa918
+Section: 汉化
+Description: Choicy 简体中文包(rootless)。
+Author: 妖刀
+Name: Choicy 简体中文包(rootless)
+
+Package: com.hk.rootless.cc
+Version: 2.0.5.5
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration
+Filename: ./debs/CCLessttrootless_2.0.5.5_iphoneos-arm64.deb
+Size: 508012
+MD5sum: b1692287689e3459ab9c9c3fee676b5e
+SHA1: 4f51e78d084f29933eba3517d196301eaed44180
+SHA256: 1d3f13dada9d861a3fd9487425f997610e209554529ec9748d471380bdf97b92
+Section: 系统插件
+Description: 集合的控制中心模块：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX/推特/油管/Filza/Sileo/Tg等、静音、实时CPU使用率、系统运行时间、Snapper2、微信/支付宝付款码、抬起唤醒等。感谢Skypain、Netskao、SOPPPra、MTAC、P2KDev、jailbreak365 +、AnubisTweaks、真皮等各位大佬！！！
+Author: 妖刀
+Name: CCLess++(rootless)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64.deb
+Size: 975824
+MD5sum: 7d74b8fcb07c17a42f2cb1802f93beb8
+SHA1: eab72bfd1c2ff20476f2ea8a6b6e902d93ba9840
+SHA256: 789918fa214c45eb799af541d782033fc9532ef31dbc8e29772fbc8c149944b4
+Section: 系统插件
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.netskao.appdata
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 3772
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.netskao.appdata_1.4.2_iphoneos-arm64.deb
+Size: 823316
+MD5sum: 1a41259a31406b62c883e28ecd414184
+SHA1: 78bc8672b41605ba96bd9b7eda72c613cab28ee1
+SHA256: d6336e31d0f7d6d0339cf49fcfa2bc66c4045a4ba5676956dfcd52bf868928db
+Section: Netskao
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
+Author: Fouad Raheb
+Name: AppData
+
+Package: com.netskao.storeswitchaccounts
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/AppStore账号切换_1.1-4_iphoneos-arm64.deb
+Size: 102304
+MD5sum: dac5b06e3bee18fdc8cad4c4a8dd8cbd
+SHA1: cd2e9fc620675f774732aca902b04767f5a765fe
+SHA256: 3ba2c4d01f86a717d07851bef4375e7f193a6c74030eeacf6e45b658c88e742f
+Section: 应用插件
+Description: 方便在登录帐户之间切换，长按桌面AppStore图标进行切换
+Author: Netskao
+Name: StoreSwitchAccounts
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 489
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/ccsupport_1.3.13-2_iphoneos-arm64.deb
+Size: 58964
+MD5sum: 57bf1a518afb0effa19f435b50b4207e
+SHA1: 65850890c7090992254c1dd0e657db5fff464e76
+SHA256: 71765448e6b252e296c6c39c23dfdcfba7bd7513f2de838a2495371e84f69673
+Section: 系统插件
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: 支持CC模块的调整！
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Dev: opa334
+Name: CCSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.choicy
+Version: 1.4.10-3
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 814
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/choicy_1.4.10-3_iphoneos-arm64.deb
+Size: 104760
+MD5sum: 27a917073f7817f7f3e4156dff1a97c0
+SHA1: 6b5dda198aa04d92da1598bf68af0b1b3fb706d7
+SHA256: 7438212d4653d36c70bf1ca76ffe9ad990399fcd6936cb77e6937dd335dad690
+Section: 系统插件
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: Advanced Tweak Configuration!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+Name: Choicy
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.zqbb.savephotos
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.zqbb.savephotos_1.1_iphoneos-arm64.deb
+Size: 4532
+MD5sum: bcdc0d4bb9996694c59e98dfc6f658c4
+SHA1: 8713d0fbff046a5b250be9193131b00e3105438e
+SHA256: 1af70b34307af1bd19cee39cfc963fc506aba0467891ad8b5fb3ecd50f868626
+Section: 系统插件
+Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
+Author: zqbb
+Name: Hello Snapper
+Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+
