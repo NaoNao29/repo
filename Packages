@@ -66,6 +66,22 @@ Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-ll
 Name: STTool
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
 
+Package: cn.llld.zyll
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/最右绿化_1.3_iphoneos-arm64.deb
+Size: 16260
+MD5sum: 7b7750636b29267968abb9ed74a7698e
+SHA1: 0527a7b1208d597a9b587d2bab222af9b0bad537
+SHA256: c362e6496e385aeef9630f985df600c9017a29cceb0c95bcd21aa8b0d5ef3fab
+Section: APP增强
+Description: 可注入可越狱使用。去除启动页视频图片摇一摇广告，去除首页推荐和帖子评论区广告，去除帖子下群组社区推荐，禁用首页左上角话题，禁用首页右上角搜索，禁用推送广告，禁用消息角标，开启全屏视频浏览模式，开启视频下载无水印，等等。***'我的'页面长按头像下方控件或首页顶栏或任意帖子内顶部，弹出设置***。建议用6.0.9版本或以内的，新版本除了臃肿增加广告以外，一无是处。
+Author: 来了老弟
+Name: 最右绿化-rootless
+
 Package: cn.octoforce.copyvault
 Version: 1.5.6
 Architecture: iphoneos-arm64
@@ -145,6 +161,73 @@ Name: Hello Folder
 Sileodepiction: https://rootless.zq666.eu.org/web/cn.zqbb.orzfolder
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.25mao.doutu.rootless
+Version: 3.1-5
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/斗图_3.1-5_iphoneos-arm64.deb
+Size: 1209828
+MD5sum: 97694f33c87068dd5df029fcf7446b0a
+SHA1: afba38fc0eea11f01b99b050c5f67166b5dc439b
+SHA256: 183569fb611c9954f0df756f25a3b4afcc5a08103900d59d2d62a97fa6e8dc6d
+Section: 微信插件
+Priority: optional
+Description: 斗图助手-Rootless
+Author: Mao
+Name: 斗图助手-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.25mao.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/左滑返回_1.0-6_iphoneos-arm64.deb
+Size: 44188
+MD5sum: 128a1c638d7a5ba6cf13265453b085bd
+SHA1: 16addc9903aa2d1508d2f7d3e1f26feb148a2c6e
+SHA256: f9e812f275ebd4eda106983ea20ce5b736d2448883c9b8e93291b3ac98d04b66
+Section: 系统插件
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回-Rootless
+
+Package: com.25mao.miyou.rootless
+Version: 3.8-0
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信助手_3.8-0_iphoneos-arm64.deb
+Size: 10163820
+MD5sum: fa7ae10f9674109ee0134e29bd17741f
+SHA1: 1397ff4345fb955eb7060304fc43a08a0d7c8e9d
+SHA256: 78234c2982892bb6fdf8409faebd16011b88734b899ba5d8177b825228a80204
+Section: 微信插件
+Priority: optional
+Description: 微信助手-Rootless版
+Author: Mao
+Name: 微信助手-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.25mao.wcplugins.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件管理_0.1-3_iphoneos-arm64.deb
+Size: 19660
+MD5sum: 0298b55d4373749d7362751e5e86bc84
+SHA1: dfe21b13a78bd0fa559b3937d3364fbb8401263f
+SHA256: 9d7b495a8357f482a0d789d4359b9161ace9d02fca2dfafda714f989bc21a772
+Section: 微信插件
+Priority: optional
+Description: 插件管理-Rootless
+Author: Mao
+Name: 微信插件管理-Rootless
+Sponsor: admin@25mao.com
+
 Package: com.82flex.noredirect
 Version: 1.8
 Architecture: iphoneos-arm64
@@ -160,6 +243,22 @@ Section: 应用插件
 Description: 停止指定的应用程序重定向到App Store、Safari或其他应用程序。
 Author: Lessica <82flex@gmail.com>
 Name: No Redirect
+
+Package: com.82flex.removewidgetbg
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/透明背景_1.6_iphoneos-arm64.deb
+Size: 30124
+MD5sum: 017d3128864958f854f0ebd953f8d2e4
+SHA1: 4ca95d18a7debfee1398a91bc527c41ad6554c2d
+SHA256: 72da63bcf7c4955f992bfd1ed7d244a47ee35cc33f8e090204edf139866950c0
+Section: 系统插件
+Description: 删除主屏幕上小部件的背景。
+Author: Lessica <82flex@gmail.com>
+Name: Remove Widget Background
 
 Package: com.82flex.singlemute
 Version: 1.4
@@ -298,6 +397,23 @@ Description: SafariX 简体中文包(rootless)。
 Author: 妖刀
 Name: SafariX 简体中文包(rootless)
 
+Package: com.dao.sugarcane
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: iOS Creatix, kasiimh1, baptistecdr, p2kdev
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane
+Filename: ./debs/音量键百分比_1.3_iphoneos-arm64.deb
+Size: 5980
+MD5sum: 18c060a9c46a824cbf2d1e97d59fea04
+SHA1: dc5f635a508aba8092e9bda1d3861a68b5a06ada
+SHA256: d7e6e9e43a0e6d964ef443112152eacb52b6908c1972cdff257fbd8b709e1258
+Section: 系统插件
+Description: 为iOS13～16的控制中心音量/亮度条添加数字百分比，无设置。
+Author: iOS Creatix, kasiimh1, p2kdev
+Name: SugarCane 16(rootless)
+
 Package: com.daodao.nocshare
 Version: 1.1.3
 Architecture: iphoneos-arm64
@@ -313,6 +429,21 @@ Section: 系统插件
 Description: 移除分享菜单中烦人的投送和联系人，基于i_82的源码修复支持16系统。
 Author: Devvix
 Name: NoCShare(rootless)
+
+Package: com.hbwechathelper.ailun
+Version: 1.7.5
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手_1.7.5_iphoneos-arm64.deb
+Size: 9411296
+MD5sum: d24ad9fe7228cadc813d483900ba00e2
+SHA1: 0aca694e87ccb50f2fbe4e5d2cdfd92a32407ff8
+SHA256: 765682f749b71f69813e5423f93d5e9abc29e89c066080db53e681ce155172de
+Section: 微信插件
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Rootless
 
 Package: com.hk.choicy.cn.rl
 Version: 1.4.6
@@ -395,6 +526,42 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.lenglengyu.baidunetdiskoutput-rootless
+Version: 1.0.1K
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 616
+Depends: mobilesubstrate
+Filename: ./debs/百度网盘文件导出_1.0.1K_iphoneos-arm64.deb
+Size: 142028
+MD5sum: 878acc86fa8fe2aae2326f2d9de6de42
+SHA1: e7bcc52f1bf1fb247a4a8efb9bd42c090b19e0f5
+SHA256: 11aad76437186cf9b154c6e890c94c90c64ba10718b94184178c97f3746591c6
+Section: APP增强
+Description: 缓存文件添加导出按钮，免去每次进入路径寻找文件的繁琐方式。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/baidunetdiskoutput.html
+Name: 百度网盘缓存文件导出-Rootless
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/baidunetdiskoutputsileo
+
+Package: com.lenglengyu.baimiao-rootless
+Version: 2.0.8K
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 580
+Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
+Filename: ./debs/白描_2.0.8K_iphoneos-arm64.deb
+Size: 141988
+MD5sum: 40138c1ed8e9fc543d4896e9be764628
+SHA1: cb218d3f2ee3c2e2acf2ffc548e99e9481e93226
+SHA256: cb71c841b14a7a621f574703599c7e6b9d78ebc48bcf1f0e002b0d20766f5399
+Section: APP增强
+Description: 解锁黄金会员权限，仅供会员使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/baimiao.html
+Name: 白描-Rootless【会员破解】
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/baimiaosileo
+
 Package: com.lenglengyu.fixxinamine-rootless
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -430,6 +597,44 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/iapstorefugu.html
 Name: IAPStore-Rootless【内购神器】
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/iapstorefugusileo
+
+Package: com.lenglengyu.jianyingpro-rootless
+Version: 0.0.4K
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 596
+Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
+Filename: ./debs/剪映_0.0.4K_iphoneos-arm64.deb
+Size: 151372
+MD5sum: 7444e7549a8e0de618bfe4cc36b4dc3b
+SHA1: 97108a2e07ef70c1c37a89357118ea0b32e8a299
+SHA256: 8c3463daa79fdfb0e1e95ffdbba800afaa1729d3f6285f993cdf084fdc208489
+Section: APP增强
+Description: 解锁会员权限，解锁付费模版，仅供会员使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/jianyingpro.html
+Name: 剪映-轻而易剪-Rootless【会员破解】
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/jianyingprosileo
+
+Package: com.lenglengyu.videohelper-rootless
+Version: 2.7.0
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3156
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0)
+Conflicts: com.lenglengyu.agmjpro, com.lenglengyu.amjpro, com.lenglengyu.hjsppro, com.lenglengyu.huashutv, com.lenglengyu.xngyspro, com.lenglengyu.qqyspro, com.lenglengyu.rrsphook, com.lenglengyu.wzdypro, com.lenglengyu.wlyspro, com.lenglengyu.xamjpro, com.lenglengyu.ylyspro, com.lenglengyu.bilibilipro, com.lenglengyu.boxsqhook, com.lenglengyu.hanjutv
+Filename: ./debs/影视助手_2.7.0_iphoneos-arm64.deb
+Size: 928136
+MD5sum: 6fe2a6710fb53b348eff0d8f321b39c5
+SHA1: 9b4e21ff151c670d141748612172e89bf636c8a1
+SHA256: c562a4e0997622e9168dd04ff9679a18599cee660ebcf3c801948db911b787c0
+Section: APP增强
+Description: 各种影视APP破解工具，仅供会员使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/videohelper.html
+Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
+Name: 影视助手-Rootless
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
 
 Package: com.netskao.appdata
 Version: 1.4.2
@@ -478,6 +683,22 @@ Section: 应用插件
 Description: 方便在登录帐户之间切换，长按桌面AppStore图标进行切换
 Author: Netskao
 Name: StoreSwitchAccounts
+
+Package: com.netskao.wechatnotiavatar
+Version: 1.2-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2336
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/微信通知头像_1.2-5_iphoneos-arm64.deb
+Size: 523556
+MD5sum: e13c43b43ff3f0f475fd9627d2431348
+SHA1: 2c7b02f6b08513e9121fda73318ef4e0c592716e
+SHA256: c18f133c98da0542cec15ff0d03482a9c2f7322b0851003a904daa7235fbb842
+Section: 微信插件
+Description: 微信通知头像
+Author: Netskao
+Name: WeChatNotiAvatar
 
 Package: com.opa334.ccsupport
 Version: 1.3.13-2
@@ -600,6 +821,92 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.pn
 Name: DockX
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
 
+Package: com.xx.dyhook
+Version: 2.0.6
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 10588
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/抖音图层_2.0.6_iphoneos-arm64.deb
+Size: 3730484
+MD5sum: 3d7c031fd174dd16dcb6e90d209c3bc2
+SHA1: ed78a8799801f5da76d2d3cdd5f3ea195fa8558b
+SHA256: dfea1e181479a023067c9eae99b0498b369e47493abcc55287539dcb067b8d17
+Section: APP增强
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.xhshook
+Version: 1.1.0-3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 3196
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/小红书_1.1.0-3_iphoneos-arm64.deb
+Size: 1113104
+MD5sum: a7074c14226e9a0fc13b3215825028cf
+SHA1: 1b607566255ccde4704250dae3d102a6ffc2ee8a
+SHA256: 255c2d3f0a55eff6157dae16c3445ac91174148334caece37f050c7bd94c5af9
+Section: APP增强
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制
+Author: x✨
+Name: 小红薯
+
+Package: com.xybp888.callassist16.dopamine
+Version: 1.6.4
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/电话助手_1.6.4_iphoneos-arm64.deb
+Size: 2682116
+MD5sum: 8e4c5194e62be6e3f9bd7b210ae58c7d
+SHA1: 038b47a71715079f0f53fd8d622835d97470012f
+SHA256: 46d9554049230aba58c5a3fcdf36ef257b40cda9c3fc6a3bcedd123609920a94
+Section: 系统插件
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Depiction: https://apt.htv123.com/view/140
+Name: 电话助手iOS16-正式版(Rootless)
+Sileodepiction: https://apt.htv123.com/sileo/140
+
+Package: com.xybp888.magiciannojailbreak.dopamine
+Version: 0.0.1-192
+Architecture: iphoneos-arm64
+Maintainer: xybp888 <8657156@qq.com>
+Installed-Size: 496
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/魔术师0.0.1-192_iphoneos-arm64.deb
+Size: 82904
+MD5sum: f6a6dfbaad3215ea7562150b44292d7c
+SHA1: 0eb8d7578dedc10c5619258218b81574f067efc5
+SHA256: a87d269b0e00e53b8546642edccf191e7643dbaf321f7df35e80601d72aeccec
+Section: 系统插件
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/139
+Name: 魔术师(iOS16)
+Sileodepiction: https://apt.htv123.com/sileo/139
+
+Package: com.xybp888.perfectdynamiclsland
+Version: 0.1-5
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: ./debs/灵动岛通知_0.1-5_iphoneos-arm64.deb
+Size: 311776
+MD5sum: d61ea70e9fda97458ebf97382ac08a08
+SHA1: 4e7f705fbc91ba6e99d8c345d789bc60b609c348
+SHA256: 74aac297b9a2190784805dda57b5cd5158a369821559952b12a1ac2fbed9cfbf
+Section: 系统插件
+Priority: optional
+Description: 电话助手激活用户专属免费插件
+Author: xybp888
+Depiction: https://apt.htv123.com/view/141
+Name: 灵动通知(Rootless)
+Sileodepiction: https://apt.htv123.com/sileo/141
+
 Package: com.zqbb.savephotos
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -634,6 +941,21 @@ Author: Tanner Bennett <tannerbennett@me.com>
 Depiction: https://nscake.github.io/package.html?package=libflex
 Name: libFLEX
 Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
+
+Package: llld.keyboard
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/强制第三方输入法_2.0_iphoneos-arm64.deb
+Size: 4004
+MD5sum: fec1ae16976d9a54724677c4f0576e4f
+SHA1: 7d507e62c340b473c50a651e81564af7232c065f
+SHA256: cc17cd6050e6723e491ef57033bcc0a2404e23bdd27100fb6caac80d4d8d3835
+Section: 系统插件
+Author: 来了老弟
+Name: 强制第三方输入法-rootless
 
 Package: lunotech11.legizmo.lighthouse
 Version: 5.3.1
