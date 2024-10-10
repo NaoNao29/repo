@@ -724,6 +724,22 @@ Author: liuf <(null)>
 Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
 Name: 系统键盘圆角
 
+Package: com.naonao29.sougouinput
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/sougou-0.0.1.deb
+Size: 11720
+MD5sum: d9f2551e82797a87b7359553bf3f6e24
+SHA1: f4971098438320316ac6ce9e18776db87e413e10
+SHA256: 6599a0ffbd5c5e21dfaf63486e204a0af79d7b0fc7d7546ef283ebb227e624d0
+Section: 自用插件
+Priority: optional
+Description: 不要为了越狱放弃升级的乐趣
+Author: naonao29
+Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
+Name: SOUGOU
+
 Package: com.netskao.appdata
 Version: 1.4.2
 Architecture: iphoneos-arm64
