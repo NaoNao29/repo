@@ -499,21 +499,6 @@ Description: 移除分享菜单中烦人的投送和联系人，基于i_82的源
 Author: Devvix
 Name: NoCShare(rootless)
 
-Package: com.hbwechathelper.ailun
-Version: 1.7.5
-Architecture: iphoneos-arm64
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Depends: mobilesubstrate
-Filename: ./debs/黄白助手_1.7.5_iphoneos-arm64.deb
-Size: 9411296
-MD5sum: d24ad9fe7228cadc813d483900ba00e2
-SHA1: 0aca694e87ccb50f2fbe4e5d2cdfd92a32407ff8
-SHA256: 765682f749b71f69813e5423f93d5e9abc29e89c066080db53e681ce155172de
-Section: 微信插件
-Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Rootless
-
 Package: com.hk.choicy.cn.rl
 Version: 1.4.6
 Architecture: iphoneos-arm64
