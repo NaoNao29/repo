@@ -361,6 +361,22 @@ Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
 
+Package: com.baiy.wechatrotate
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: baiy（qq:961666883）
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/微信头像旋转-无根.deb
+Size: 8018
+MD5sum: 0e7bbf844a40e3cfca4a9d79a54aaaf2
+SHA1: 2479a88da3282fc68da9e5e59e93e29086f14d11
+SHA256: ed6d8a81c7620f6ee4189c457f6e5b660026d23722c391551d04f0d3460ccef6
+Section: Tweaks
+Description: 看着头都晕，添加一个开关，新增一个速度控制！
+Author: 白衣
+Name: 微信头像旋转
+
 Package: com.be-huge.floating-view
 Version: 1.4.2
 Architecture: iphoneos-arm64
@@ -1064,6 +1080,21 @@ Description: 屏蔽更换配件后设置和关于本机里面的重要提醒
 Author: NN
 Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
 Name: 屏蔽设置重要提醒
+
+Package: ios-rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iBreak <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/全局开关颜色_rootless_0.0.1_iphoneos-arm64.deb
+Size: 3300
+MD5sum: 98cc146ed2146b20c7242b2d27ad0ba7
+SHA1: 89b48f7d4803acec494c39012fdc70d8edc0ac2c
+SHA256: 316667723f1cf5482d2000a4746b4ec469b56ba39190dd961a04deaca601c3e9
+Section: Tweaks
+Description: 开启方法：前往：设置 - 辅助功能 - 显示与文字大小 - 开/关标签
+Author: iBreak <xuanhua880@gmail.com>
+Name: 全局开关颜色
 
 Package: libflex
 Version: 5.22.10
