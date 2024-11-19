@@ -807,6 +807,38 @@ Description: 方便在登录帐户之间切换，长按桌面AppStore图标进�
 Author: Netskao
 Name: StoreSwitchAccounts
 
+Package: com.netskao.wcisoverseauser
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.netskao.wcisoverseauser_1.1-1_iphoneos-arm64.deb
+Size: 2196
+MD5sum: ab58c873b17a7b7a3e809195d7bd4af7
+SHA1: f747ade2c3851081668f3d1f9e0a5e8889fe0de7
+SHA256: 3a9cb469730f2c6d197c23c3a9414df92388ca1dbc16ce7c904f53c197ee4782
+Section: 微信插件
+Description: 微信补丁isoverseauser
+Author: Netskao
+Name: WCIsOverSeaUser
+
+Package: com.netskao.wcnewminiappfloatingwindow
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.netskao.wcnewminiappfloatingwindow_1.1-1_iphoneos-arm64.deb
+Size: 2252
+MD5sum: dc40e227d95356e8f7939a1bd8efcdd6
+SHA1: 0e373ecdc6abed18815f5fed170ada90519811b7
+SHA256: b44592e38e2ca7bf457286a93dd2eed4d99c9a3bca58565513b2246bbdfc0a81
+Section: 微信插件
+Description: 微信支持AB测试的miniApp浮动窗口功能，仅8.0.54+
+Author: Netskao
+Name: WCNewMiniAppFloatingWindow
+
 Package: com.netskao.wechatnotiavatar
 Version: 1.2-5
 Architecture: iphoneos-arm64
