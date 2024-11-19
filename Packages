@@ -807,6 +807,22 @@ Description: 方便在登录帐户之间切换，长按桌面AppStore图标进�
 Author: Netskao
 Name: StoreSwitchAccounts
 
+Package: com.netskao.wcisoverseauser
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.netskao.wcisoverseauser_1.1-1_iphoneos-arm64.deb
+Size: 2196
+MD5sum: dfe194bb7d3290a6685404205af8f953
+SHA1: 3270402847b055d8c4d7f0c0d18655af3f3eeccd
+SHA256: a8641fac15d977b14c1bcea742a9349b899cd4c23f0f0ceea71818f07d47078a
+Section: 微信插件
+Description: 微信补丁wcisoverseauser
+Author: Netskao
+Name: WCIsOverSeaUser
+
 Package: com.netskao.wcnewminiappfloatingwindow
 Version: 1.1-1
 Architecture: iphoneos-arm64
