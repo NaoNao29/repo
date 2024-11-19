@@ -1025,60 +1025,6 @@ Description: 朋友需要才制作了此插件 APP设置界面右上角打开插
 Author: x✨
 Name: 小红薯
 
-Package: com.xybp888.callassist16.dopamine
-Version: 1.6.4
-Architecture: iphoneos-arm64
-Maintainer: xybp888
-Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
-Filename: ./debs/电话助手_1.6.4_iphoneos-arm64.deb
-Size: 2682116
-MD5sum: 8e4c5194e62be6e3f9bd7b210ae58c7d
-SHA1: 038b47a71715079f0f53fd8d622835d97470012f
-SHA256: 46d9554049230aba58c5a3fcdf36ef257b40cda9c3fc6a3bcedd123609920a94
-Section: 系统插件
-Priority: optional
-Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Author: xybp888
-Depiction: https://apt.htv123.com/view/140
-Name: 电话助手iOS16-正式版(Rootless)
-Sileodepiction: https://apt.htv123.com/sileo/140
-
-Package: com.xybp888.magiciannojailbreak.dopamine
-Version: 0.0.1-192
-Architecture: iphoneos-arm64
-Maintainer: xybp888 <8657156@qq.com>
-Installed-Size: 496
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/魔术师0.0.1-192_iphoneos-arm64.deb
-Size: 82904
-MD5sum: f6a6dfbaad3215ea7562150b44292d7c
-SHA1: 0eb8d7578dedc10c5619258218b81574f067efc5
-SHA256: a87d269b0e00e53b8546642edccf191e7643dbaf321f7df35e80601d72aeccec
-Section: 系统插件
-Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关
-Author: xybp888 <8657156@qq.com>
-Depiction: https://apt.htv123.com/view/139
-Name: 魔术师(iOS16)
-Sileodepiction: https://apt.htv123.com/sileo/139
-
-Package: com.xybp888.perfectdynamiclsland
-Version: 0.1-5
-Architecture: iphoneos-arm64
-Maintainer: xybp888
-Depends: firmware (>= 16.0), mobilesubstrate
-Filename: ./debs/灵动岛通知_0.1-5_iphoneos-arm64.deb
-Size: 311776
-MD5sum: d61ea70e9fda97458ebf97382ac08a08
-SHA1: 4e7f705fbc91ba6e99d8c345d789bc60b609c348
-SHA256: 74aac297b9a2190784805dda57b5cd5158a369821559952b12a1ac2fbed9cfbf
-Section: 系统插件
-Priority: optional
-Description: 电话助手激活用户专属免费插件
-Author: xybp888
-Depiction: https://apt.htv123.com/view/141
-Name: 灵动通知(Rootless)
-Sileodepiction: https://apt.htv123.com/sileo/141
-
 Package: com.zqbb.savephotos
 Version: 1.1
 Architecture: iphoneos-arm64
