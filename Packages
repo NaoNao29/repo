@@ -957,6 +957,23 @@ Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
 Name: SnowBoard
 
+Package: com.tiaotiao.wechatdaynightswitch
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: TiaoTiao
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/com.tiaotiao.wechatdaynightswitch_1.0.3_iphoneos-arm64.deb
+Size: 51156
+MD5sum: 75f3842d778a6028f8a17a59de3d932c
+SHA1: c528e87922509c9819d99fc6875a87caac697110
+SHA256: 2166cce2e99c1f9eb99b39538c0bc03252b033234414ad81c949f5d2e857095a
+Section: 系统插件
+Description: 为您的开关添加一些风格
+Author: Finn Gaida & TiaoTiao
+Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
+Name: WeChatDayNightSwitch
+
 Package: com.udevs.dockx
 Version: 2.6.2
 Architecture: iphoneos-arm64
