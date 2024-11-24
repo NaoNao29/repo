@@ -747,6 +747,22 @@ Package: com.naonao29.sougouinput
 Version: 0.0.1
 Architecture: iphoneos-arm64
 Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/JOKER-0.0.1.deb
+Size: 99796
+MD5sum: 8078dc568f549f050abcaa1c1f2b511c
+SHA1: 9e1c204249f9968f6b1d73cb744d31eaadaef1b0
+SHA256: 9a49328718f115dd4d2a1daff5be338eae7313306077f7dcc10c847e64fc96db
+Section: 自用插件
+Priority: optional
+Description: 不要为了越狱放弃升级的乐趣🇨🇳
+Author: naonao29
+Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
+Name: JOKER
+
+Package: com.naonao29.sougouinput
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
 Filename: ./debs/SOUGOU-0.0.1(1).deb
 Size: 99908
 MD5sum: 4f95ba3ff115c600a823dda2d07ac087
