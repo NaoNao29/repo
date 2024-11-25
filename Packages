@@ -775,6 +775,22 @@ Author: naonao29
 Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
 Name: SOUGOU
 
+Package: com.naonao29.sougouinput
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/一键解锁iOS18-0.0.1.deb
+Size: 99784
+MD5sum: c9be85063d32cc250383ab3b717bef16
+SHA1: 66ec367520a0a0ffc6c00a30d09ab32e11f3370c
+SHA256: 31bf5596e49e8cbe8522430a117609dff7f88ce57d2ea0a0cc97f0cc9552afbf
+Section: 自用插件
+Priority: optional
+Description: 不要为了越狱放弃升级的乐趣🇨🇳
+Author: naonao29
+Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
+Name: 一键解锁iOS18
+
 Package: com.netskao.appdata
 Version: 1.4.2
 Architecture: iphoneos-arm64
