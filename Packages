@@ -747,22 +747,6 @@ Package: com.naonao29.sougouinput
 Version: 0.0.1
 Architecture: iphoneos-arm64
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/SOUGOU-0.0.1(1).deb
-Size: 99908
-MD5sum: 4f95ba3ff115c600a823dda2d07ac087
-SHA1: ea287b5757d342a15b9e4a87e70d19b4650ff9b0
-SHA256: 0436e6cddf8fae945a6d787def0fe552606d4882a664805a919b6eca06dbdc16
-Section: 自用插件
-Priority: optional
-Description: 不要为了越狱放弃升级的乐趣🇨🇳
-Author: naonao29
-Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
-Name: SOUGOU
-
-Package: com.naonao29.sougouinput
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Depends: firmware (>= 5.0), mobilesubstrate
 Filename: ./debs/一键解锁iOS18-0.0.1.deb
 Size: 99920
 MD5sum: 828e5a40f75c739ddfb6c7e7bb88e62b
@@ -1106,6 +1090,27 @@ Section: Tweaks
 Description: 开启方法：前往：设置 - 辅助功能 - 显示与文字大小 - 开/关标签
 Author: iBreak <xuanhua880@gmail.com>
 Name: 全局开关颜色
+
+Package: jp.r-plus.doublecut
+Version: 0.8
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 348
+Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader
+Filename: ./debs/Doublecut_0.8.deb
+Size: 11964
+MD5sum: 5d1f396998e9fee8840860923404146c
+SHA1: 23cb86bfa8845ad5fbff09d0de016a57fdb1bd64
+SHA256: 288cd5561f4bc79e4c5e3d92e5259013d2f3a00d8cf0d5f1c7afd3fc979e3e29
+Section: 自用插件
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=doublecutDp
+Description: 双击/三点点击/长按键插入任意文本。
+Tag: purpose::extension
+Author: r_plus <anasthasia.r+doublecut@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=doublecutDp
+Dev: rplus
+Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
+Name: DoubleCut
 
 Package: libflex
 Version: 5.22.10
