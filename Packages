@@ -768,15 +768,15 @@ Version: 0.0.1
 Architecture: iphoneos-arm64
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: ./debs/一键解锁iOS18-0.0.1.deb
-Size: 99920
-MD5sum: 828e5a40f75c739ddfb6c7e7bb88e62b
-SHA1: 905b734554ff759c092456f3bf218b54f0170ee8
-SHA256: d4abcd499406861fc41f57d9e73673020859b0f79c4b457b7e768cb5ad5c3fd5
+Size: 99812
+MD5sum: d8394b329abba0ec3e8ba8982a5b74f6
+SHA1: 6bb81cba5a056c36df7d9cb793fddd842de8b986
+SHA256: a814179272707db3a71667b88e96b9fdf7120d5b10fe4e7c79f1d4bc3a4fffbd
 Section: 自用插件
 Priority: optional
 Description: 不要为了越狱放弃升级的乐趣🇨🇳
 Author: naonao29
-Icon: https://activess.jqrcode.top/qrcode/rediect?id=95256
+Icon: https://img.kqrcode.top/data/upload/image/20241128/af22278f93ef1c38b80ce4e4fde2cb3c.jpg
 Name: 一键解锁iOS18
 
 Package: com.netskao.appdata
