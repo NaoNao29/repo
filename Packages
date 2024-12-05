@@ -1014,6 +1014,22 @@ Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
 
+Package: com.susu.springanimations
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Installed-Size: 718
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Filename: ./debs/com.susu.springanimations_1.1.1_iphoneos-arm64.deb
+Size: 11992
+MD5sum: 43968492f5e59abb5f254401d057c160
+SHA1: c42549776dc8c2cfbecfea008432142aaa0fc07c
+SHA256: 64ba70d5b34b013a893145f68c437ae07fa2822bd29fc39bd86134130a05bb97
+Section: 系统插件
+Description: iOS 11-16上的漂亮动画效果！
+Author: SuSu
+Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/%E9%97%B9%E9%97%B9.PNG
+Name: SpringAnimations
+
 Package: com.tiaotiao.wechatdaynightswitch
 Version: 1.0.3
 Architecture: iphoneos-arm64
