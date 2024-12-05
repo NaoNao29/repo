@@ -189,6 +189,23 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 Name: Hello 120Hz
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: cn.zqbb.kbtextcolor
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: zqbb <w2599z@gmail.com>
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.zqbb.kbtextcolor_1.2_iphoneos-arm64.deb
+Size: 14484
+MD5sum: 09e30089391cbbc5e8f45f10ea2c7818
+SHA1: 2ff186f18848df558f7d33504b1d1ed6f8291765
+SHA256: fd4d9e7821369a391813827223b3da0e9bcc081f0401d03860b6608142fd890f
+Section: 自用插件
+Description: 给原生输入法添加一份色彩！
+Author: zqbb <w2599z@gmail.com>
+Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/%E9%97%B9%E9%97%B9.PNG
+Name: KbTextColor
+
 Package: cn.zqbb.orzfolder
 Version: 1.2.3-3
 Architecture: iphoneos-arm64
