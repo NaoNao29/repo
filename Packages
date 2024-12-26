@@ -913,6 +913,22 @@ Description: 微信支持AB测试的miniApp浮动窗口功能，仅8.0.54+
 Author: Netskao
 Name: WCNewMiniAppFloatingWindow
 
+Package: com.netskao.wcsvgcolorhookexamples
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.netskao.wcsvgcolorhookexamples_1.1-1_iphoneos-arm64.deb
+Size: 2860
+MD5sum: 7b19d1336ec3f8b93c453cfb7f1b2d5d
+SHA1: b99052bf5075bcfc7b2eb6680d17bf41234f2c19
+SHA256: aaaa120bd82775fd857c990dcbffae40f8de1c3b9b3c25077015c5e1b4ee317b
+Section: 微信插件
+Description: 给微信SVG添加一份色彩
+Author: Netskao
+Name: WCSVGColorHookExamples
+
 Package: com.netskao.wechatnotiavatar
 Version: 1.2-5
 Architecture: iphoneos-arm64
@@ -1099,6 +1115,22 @@ Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.wechat.colorfulcube
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Seasons && huami
+Depends: mobilesubstrate
+Filename: ./debs/com.wechat.colorfulcube_1.0-1_iphoneos-arm64.deb
+Size: 5560
+MD5sum: 88c57107ee6e4baa55f8c69dbe556b20
+SHA1: b8bf396aa2ecd2db54f88fb622ddc440dcd3e9a8
+SHA256: b4c2b167720b5fdc508763f590a08e6d97c891deca4c0e8baa073b5a78cdb7cb
+Section: 微信插件
+Description: 让微信焕发全新光彩，灵动方盒让你的微信有丰富多彩的体验！
+Author: Seasons && huami
+Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/闹闹.PNG
+Name: 灵动方盒-Rootless
 
 Package: com.xx.dyhook
 Version: 2.0.6
