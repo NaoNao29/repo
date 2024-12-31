@@ -1,3 +1,21 @@
+Package: byg.iosios.net.replaced
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/删除设置未知部件.deb
+Size: 3420
+MD5sum: d938ab76da766d21eca761a3165ddd21
+SHA1: ceb036aa1f76fffa8283b87718493e3b0037ce3f
+SHA256: 320c9e8fe50660ec933b7880388510a792da38f52cb5a132d0a0514e293156a2
+Section: 系统插件
+Description: Remove the notification that the P在“设置”的“关于”页面中删除有关“未知部件”或“部件和服务历史记录”的烦人通知。 非常有用的插件，自欺欺人！
+Author: 34306
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Replaced删除系统提示-Rootless
+Sponsor: 搬运工
+
 Package: byg.naonao29.qqmusic
 Version: 0.0.1
 Architecture: iphoneos-arm64
