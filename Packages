@@ -1167,6 +1167,23 @@ Author: Seasons && huami
 Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/闹闹.PNG
 Name: 灵动方盒-Rootless
 
+Package: com.wechatxkeyboard
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: N
+Installed-Size: 348
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/微信键盘2.deb
+Size: 87376
+MD5sum: 49da0b6cf1b40e3d972b8fb7fdef5298
+SHA1: 9979b257a10e6b1f3ae16c1d483d759a2d361ef4
+SHA256: 69919e690dea0776128c5f42830dcaffef153a7bbb8618f66e3e6d5b28462734
+Section: 应用插件
+Description: 微信键盘自定义
+Author: N
+Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/闹闹.PNG
+Name: 微信键盘自定义
+
 Package: com.xx.dyhook
 Version: 2.0.6
 Architecture: iphoneos-arm64
