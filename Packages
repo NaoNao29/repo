@@ -396,24 +396,6 @@ Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
 
-Package: com.Axs.wechatxkeyboard
-Version: 1.6
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 348
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/微信键盘2.deb
-Size: 87340
-MD5sum: 79b2d6b676d0720c6fa870952659b7b6
-SHA1: 6dcc7abb4dbd32e196c44d6036ea828e76475de5
-SHA256: deed7f9d81359c646a6d3b7c67a5a94b2c13cc0e4afadbae367b07c3af4a3617
-Section: 应用插件
-Description: 微信键盘自定义
-Author: Axs
-Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/闹闹.PNG
-Name: 微信键盘自定义
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-
 Package: com.Doki.wxkeyboarduihook
 Version: 1.6
 Architecture: iphoneos-arm64
