@@ -1151,22 +1151,6 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.pn
 Name: DockX
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
 
-Package: com.wechat.colorfulcube
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: Seasons && huami
-Depends: mobilesubstrate
-Filename: ./debs/com.wechat.colorfulcube_1.0-1_iphoneos-arm64.deb
-Size: 5560
-MD5sum: 88c57107ee6e4baa55f8c69dbe556b20
-SHA1: b8bf396aa2ecd2db54f88fb622ddc440dcd3e9a8
-SHA256: b4c2b167720b5fdc508763f590a08e6d97c891deca4c0e8baa073b5a78cdb7cb
-Section: 微信插件
-Description: 让微信焕发全新光彩，灵动方盒让你的微信有丰富多彩的体验！
-Author: Seasons && huami
-Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/闹闹.PNG
-Name: 灵动方盒-Rootless
-
 Package: com.wechatxkeyboard
 Version: 1.6
 Architecture: iphoneos-arm64
