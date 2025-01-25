@@ -396,6 +396,23 @@ Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
 
+Package: com.Doki.kbstyle
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Doki
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/com.Doki.kbstyle_1.1_iphoneos-arm64.deb
+Size: 33140
+MD5sum: fa18b04d215759c33134eb603ce9da58
+SHA1: b3c0361bdf241050fa649e522c65ca8a35571b0b
+SHA256: 559ad870c7726f14ece8a49491a4d2c24e0ae7502eaa9d2def75a77200eacc1a
+Section: 插件
+Description: 让你的键盘更加花里胡哨！
+Author: Doki
+Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/闹闹.PNG
+Name: 键盘DIY颜色
+
 Package: com.Doki.wxkeyboarduihook
 Version: 1.6
 Architecture: iphoneos-arm64
@@ -412,6 +429,23 @@ Description: 微信键盘自定义
 Author: Doki
 Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/闹闹.PNG
 Name: 微信键盘自定义
+
+Package: com.Doki.wxkeyboarduihook
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: Doki
+Installed-Size: 416
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.Doki.wxkeyboarduihook_1.8_iphoneos-arm64.deb
+Size: 77436
+MD5sum: ede729a25d1f51b5a2a4614d79eb644c
+SHA1: 9e5dc49851a631405fa48f46b3d3d9f8eebae188
+SHA256: 3e5348d3f453fcb7a6bca5dd8c64030be1d10812e9d9ecb4d5a16fbeb5897b6b
+Section: 插件
+Description: 微信输入法自定义
+Author: Doki
+Icon: https://raw.githubusercontent.com/NaoNao29/repo/f98972dacb2aa07b51d2eba214ffb4f7002727b6/闹闹.PNG
+Name: 微信输入法自定义
 
 Package: com.anthopak.appaze3
 Version: 1.0.1
